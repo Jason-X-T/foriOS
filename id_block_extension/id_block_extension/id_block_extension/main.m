@@ -11,13 +11,17 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
                 
-        Person* kaku = [Person new];
+//        Person* ka1 = [Person new];
+        Person* ka2 = [[Person alloc] initWithName:@"kuka"];
+        [ka2 introduceSelf];
         
-        kaku.myName = @"郭云龍";
+//        NSObject *obj = [Person new];
+//        [obj introduceSelf];
         
-        [kaku introduceSelf];
+        // id の説明: １.　２関数
+        id oo = [[Person alloc] initWithName:@"wasa"];
+        [oo introduceSelf];
         
-        // insert code here...
         NSLog(@"Hello, World!");
     
     }

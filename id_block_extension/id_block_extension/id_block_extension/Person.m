@@ -9,8 +9,15 @@
 
 @implementation Person
 
+- (instancetype) initWithName:(NSString*)name
+{
+    self.myName = name;
+    return self;
+}
+
  - (void) introduceSelf
 {
-    NSLog(@"私の名前は「%@」、よろしくね！",self.myName);
+    NSLog(@"私の名前は「%@」、よろしく！",self.myName);
 }
+
 @end

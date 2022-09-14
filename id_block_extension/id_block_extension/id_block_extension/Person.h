@@ -11,7 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Person : NSObject
 
-@property(nonatomic,assign) NSString* myName;
+@property(nonatomic,strong) NSString* myName;
+
+- (instancetype) initWithName:(NSString*)name;
 
 - (void) introduceSelf;
 
