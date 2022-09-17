@@ -2,7 +2,7 @@
 //  Person.h
 //  id_block_extension
 //
-//  Created by 郭云龙 on 22/9/14.
+//  Created by JG on 22/9/14.
 //
 
 #import <Foundation/Foundation.h>

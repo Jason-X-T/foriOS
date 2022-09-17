@@ -2,7 +2,7 @@
 //  main.m
 //  id_block_extension
 //
-//  Created by ka on 22/9/14.
+//  Created by JG on 22/9/14.
 //
 
 #import <Foundation/Foundation.h>
@@ -19,8 +19,8 @@ int main(int argc, const char * argv[]) {
 //        [obj introduceSelf];
         
         // id の説明: １.　２関数
-        id oo = [[Person alloc] initWithName:@"wasa"];
-        [oo introduceSelf];
+        id wa = [[Person alloc] initWithName:@"wasa"];
+        [wa introduceSelf];
         
         NSLog(@"Hello, World!");
     
